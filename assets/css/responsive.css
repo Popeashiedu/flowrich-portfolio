@@ -1,0 +1,220 @@
+/* MEDIA QUERIES FOR 576PX AND ABOVE */
+/* Only use the breakpoint necessary to your project */
+@media all and (max-width:425px) {
+  .flowrich-portfolio{
+    background-position: 85% 0%;
+  }
+}
+@media all and (min-width:576px) {}
+
+@media all and (min-width:768px) {
+  #flowrich-header-container{
+    max-width: 100%!important;
+  }
+  .about-container{
+    max-width: 100%!important;
+  }
+  .flowrich-portfolio{
+    background-size: 4%;
+    background-position: 70% 0%;
+  }
+  
+}
+
+@media all and (min-width:992px) {
+  body{
+      background-size: 10% 6%, 10% 6%;
+      background-position: left 0% top 37%, right 0% top 47%;
+  }
+  .desktop{
+    display: block;
+  }
+    /* HEADER STARTS  */
+    .flowrich-header{
+      background: url(../images/flowrich-bg.png);
+      background-size: auto;
+      background-repeat: no-repeat;
+      height: 100vh;
+      background-position: 27% 0%;
+      background-color: 
+      #f3eee9;
+    }
+    .flowrich-navbar{
+      background-color: transparent!important;
+    }
+    
+    #flowrich-header-container, .mobile{
+      display: none;
+    }
+    .flowrich-header-h1{
+      margin-top: 40%;
+      display: block!important;
+      animation: tracking-in-expand-fwd-bottom 1s 1s;
+    }
+/* NAVBAR STARTS  */
+.navbar ul {
+  background-color: transparent;
+  }
+.nav-link{
+    font-size: 24px;
+  }
+  .cart img{
+    margin-bottom: -45%;
+  }
+  /* NAVBAR STARTS  */
+  /* HEADER ENDSS  */
+
+   /* ABOUT SECTION STARTS  */
+   #about-section{
+     background: url(../images/About-bg.png);
+     background-size: 100%;
+     background-repeat: no-repeat;
+     /* margin-top: 10%; */
+   }
+   .about-container{
+    background: none;
+    max-width: 960px!important;
+    margin-top: 2%;
+  }
+   .flowrich-about{
+     margin-top: 3%;
+     margin-bottom: 13%;
+   }
+  
+  /* ABOUT SECTION ENDS  */
+
+  /* PORTFOLIO SECTION STARTS  */
+  #portfolio .row{
+    margin-top: 10%;
+  }
+  .flowrich-portfolio{
+    margin-top: 2%;
+  }
+  .flowrich-portfolio{
+    background-size: 8%;
+    background-position: 49% 9%;
+  }
+  /* PORTFOLIO SECTION ENDS  */
+
+
+/* GALLERY SECTION STARTS  */
+.card{
+  margin-bottom: 20%;
+}
+/* GALLERY SECTION ENDS  */
+/* APPEAL SECTION STARTS  */
+.appeal{
+  background: url(../images/lower-bg.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  /* height: 100vh; */
+  margin-bottom: 10%!important;
+  max-width: 100%!important;
+}
+/* .appeal .content{
+  margin-top: 20%!important;
+  margin-left: 10%!important;
+} */
+/* APPEAL SECTION ENDS  */
+
+/* MAP SECTION STARTS  */
+.map{
+  margin-top: -10%;
+}
+.map iframe{
+  width: 450px;
+  height: 618px;
+  border: none;
+}
+/* MAP SECTION ENDS  */
+
+/* CONTACT SECTION STARTS  */
+.form-div{
+  margin-left: 8%;
+}
+/* CONTACT SECTION ENDS  */
+
+/* SUBSCRIBE SECTION STARTS  */
+#subscribe .desktop{
+  background: url(../images/subscribe-bg.png);
+  background-size: cover;
+  background-position: 45% 1%;
+  background-repeat: no-repeat;
+  padding: 1rem;
+
+}
+/* SUBSCRIBE SECTION ENDS  */
+
+/* FOOTER  */
+#footer{
+  background: none;
+ 
+}
+.desktop-footer{
+  background: url(../images/footer-bg.png)!important;
+  background-size: cover!important;
+  background-repeat: no-repeat!important;
+  padding: 1rem;
+}
+}
+@media all and (min-width:1200px) {
+  /* HEADER STARTS  */
+  body{
+    background-size: 12% 8%, 12% 8%;
+    background-position: left 0% top 35%, right 0% top 46%;
+}
+  .flowrich-header{
+    background-position: 33% 0%;
+   
+  }
+  .about-container{
+    max-width: 1140px!important;
+  }
+  
+  .flowrich-about{
+    margin-top: 5%;
+    margin-bottom: 17%;
+  }
+  .map iframe{
+    width: 550px;
+    height: 618px;
+    border: none;
+  }
+}
+@media all and (min-width:1440px) {
+  /* HEADER STARTS  */
+  .flowrich-header{
+    background-position: 100% 0%;
+   
+  }
+  .flowrich-about{
+    margin-top: 9%;
+    margin-bottom: 35%;
+  }
+  /* APPEAL STARTS  */
+  .appeal{
+    height: 90vh;
+  }
+  .map iframe{
+    width: 670px;
+    height: 618px;
+    border: none;
+  }
+}
+
+@media all and (min-width:2560px) {
+  /* HEADER STARTS  */
+  .flowrich-header{
+    background-position: 100% 0%;
+    height: 60vh;
+   
+  }
+  .flowrich-about{
+    margin-top: 25%;
+    margin-bottom: 55%;
+  }
+   /* APPEAL STARTS  */
+   .appeal{
+    height: 55vh;
+  }
+}
