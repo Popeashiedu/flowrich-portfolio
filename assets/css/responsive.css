@@ -18,6 +18,9 @@
     background-size: 4%;
     background-position: 70% 0%;
   }
+  .carousel{
+    margin-left: 5%!important;
+  }
   
 }
 
@@ -47,9 +50,9 @@
       display: none;
     }
     .flowrich-header-h1{
-      margin-top: 40%;
+      margin-top: 23%;
       display: block!important;
-      animation: tracking-in-expand-fwd-bottom 1s 1s;
+      
     }
 /* NAVBAR STARTS  */
 .navbar ul {
@@ -84,9 +87,9 @@
   /* ABOUT SECTION ENDS  */
 
   /* PORTFOLIO SECTION STARTS  */
-  #portfolio .row{
+  /* #portfolio .row{
     margin-top: 10%;
-  }
+  } */
   .flowrich-portfolio{
     margin-top: 2%;
   }
@@ -150,6 +153,9 @@
   background: none;
  
 }
+.footer-icons-ul{
+  margin-left: 8%;
+}
 .desktop-footer{
   background: url(../images/footer-bg.png)!important;
   background-size: cover!important;
@@ -166,6 +172,11 @@
   .flowrich-header{
     background-position: 33% 0%;
    
+  }
+  .flowrich-header-h1{
+    margin-top: 35%;
+    display: block!important;
+    
   }
   .about-container{
     max-width: 1140px!important;
@@ -189,7 +200,7 @@
   }
   .flowrich-about{
     margin-top: 9%;
-    margin-bottom: 35%;
+    margin-bottom: 20%;
   }
   /* APPEAL STARTS  */
   .appeal{

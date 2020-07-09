@@ -46,7 +46,7 @@ body{
   background-image: url(../images/side-bg-1.png), url(../images/side-bg-2.png);
     background-repeat: no-repeat;
     background-size: 22% 5%, 15%;
-    background-position: left 0% top 35%, right -7.5% top -1%;
+    background-position: left 0% top 35%, right -7.5% top -15%;
 }
 h1{
   font-size: var(--fs-h1);
@@ -64,7 +64,7 @@ img{
   background-repeat: no-repeat;
 } */
 .flowrich-header-h1{
-  display: none;
+  /* display: none; */
   animation: tracking-in-expand-fwd-bottom 1s 5s;
 }
 /* NAVBAR STARTS  */
@@ -107,7 +107,8 @@ background-color: #FBEDE2;
   max-width: 70%;
 }
 .light-btn{
-  padding: 0.75rem;
+  /* padding: 0.75rem; */
+  height: 2.5rem;
   width: 8rem;
   border: none;
   background-color: #F1F8FF;
@@ -147,7 +148,8 @@ background-color: #FBEDE2;
 
 
 .pink-btn{
-  padding: 0.75rem;
+  /* padding: 0.75rem; */
+  height: 2.5rem;
   width: 8rem;
   border: none;
   background-color: #FBEDE2;
@@ -196,6 +198,9 @@ background-color: #FBEDE2;
 /* PORTFOLIO SECTION ENDS  */
 
 /* SHOP SECTION STARTS  */
+.carousel{
+  margin-left: 0%;
+}
 .shop-img{
   border: none;
   font-family: var(--ff-secondary);
