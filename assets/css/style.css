@@ -242,10 +242,23 @@ background-color: #FBEDE2;
 }
 .appeal{
   /* height: 100vh; */
-  margin-bottom: 10%!important;
+  margin-bottom: 5%!important;
 }
 
 /* APPEAL SECTION ENDS */
+
+/* TESTIMONIAL SECTION STARTS  */
+#testimonial{
+  background: url(../images/lower-about-box.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 5%!important;
+}
+#testimonial .carousel{
+  margin-left: 0!important;
+  
+}
+/* TESTIMONIAL SECTION ENDS  */
 
 /* CONTACT US SECTION STARTS  */
 #contact{

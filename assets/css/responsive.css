@@ -21,6 +21,13 @@
   .carousel{
     margin-left: 5%!important;
   }
+  /* THIS IS SPECIFICALLY TO HIDE THE TESTIMONIALS CAROUSEL IN 768 VIEW  */
+  .h-768{
+    display: none;
+  }
+  .s-768{
+    display: block!important;
+  }
   /* .appeal-left{
     height: auto;
   
@@ -36,6 +43,10 @@
   body{
       background-size: 10% 6%, 10% 6%;
       background-position: left 0% top 37%, right 0% top 47%;
+  }
+  .navbar{
+    position: sticky;
+    max-width: 100%;
   }
   .desktop{
     display: block;
@@ -123,10 +134,7 @@
   background-size: 20%;
   
 }
-.appeal{
-  margin-bottom: 8%!important;
- 
-}
+
 /* .appeal .content{
   margin-top: 20%!important;
   margin-left: 10%!important;
