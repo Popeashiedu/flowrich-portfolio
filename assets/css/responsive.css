@@ -21,6 +21,14 @@
   .carousel{
     margin-left: 5%!important;
   }
+  /* .appeal-left{
+    height: auto;
+  
+  } */
+  #footer{
+    background-size: 30%;
+    background-position: top 6% left -5%;
+  }
   
 }
 
@@ -106,13 +114,18 @@
 }
 /* GALLERY SECTION ENDS  */
 /* APPEAL SECTION STARTS  */
+.appeal-left{
+  height: auto;
+
+}
+.appeal-right{
+  background-position: 103% 100%;
+  background-size: 20%;
+  
+}
 .appeal{
-  background: url(../images/lower-bg.png);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  /* height: 100vh; */
-  margin-bottom: 6%!important;
-  max-width: 100%!important;
+  margin-bottom: 8%!important;
+ 
 }
 /* .appeal .content{
   margin-top: 20%!important;
@@ -149,18 +162,23 @@
 /* SUBSCRIBE SECTION ENDS  */
 
 /* FOOTER  */
-#footer{
+/* #footer{
   background: none;
  
-}
+} */
 .footer-icons-ul{
   margin-left: 8%;
 }
-.desktop-footer{
+/* .desktop-footer{
   background: url(../images/footer-bg.png)!important;
   background-size: cover!important;
   background-repeat: no-repeat!important;
   padding: 1rem;
+} */
+#footer{
+  background-size: 13%;
+  background-position: top 6% left 0%;
+  padding: 0.7rem;
 }
 }
 @media all and (min-width:1200px) {
@@ -203,9 +221,7 @@
     margin-bottom: 30%;
   }
   /* APPEAL STARTS  */
-  .appeal{
-    /* height: 60vh; */
-  }
+  
   .map iframe{
     width: 670px;
     height: 618px;

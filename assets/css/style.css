@@ -65,11 +65,14 @@ img{
 } */
 .flowrich-header-h1{
   /* display: none; */
-  animation: tracking-in-expand-fwd-bottom 1s 5s;
+  animation: tracking-in-expand-fwd-bottom 3s;
+  animation-timing-function: ease-out;
+  
 }
 /* NAVBAR STARTS  */
 .navbar-brand{
   max-width: 50%;
+  animation: name duration timing-function delay iteration-count direction fill-mode;
 }
 .nav-link{
   color: var(--clr-primary)!important;
@@ -106,6 +109,7 @@ background-color: #FBEDE2;
 .flowrich-about-img img{
   max-width: 70%;
 }
+
 .light-btn{
   /* padding: 0.75rem; */
   height: 2.5rem;
@@ -122,6 +126,7 @@ background-color: #FBEDE2;
   background-position: center;
   margin-top: 10%;
 }
+
 /* ABOUT SECTION ENDS  */
 
 /* PORTFOLIO SECTION STARTS  */
@@ -164,6 +169,7 @@ background-color: #FBEDE2;
 .card{
   overflow: hidden;
   transition: transform 750ms cubic-bezier(.5, 0, .5, 1), opacity 250ms linear;
+  animation-timing-function: ease-out;
 }
 
 .card img{
@@ -220,27 +226,25 @@ background-color: #FBEDE2;
 /* SHOP SECTION ENDS  */
 
 /* APPEAL SECTION STARTS */
-.appeal{
-  background: url(../images/mobile-appeal.png);
-  background-size: 100%;
+.appeal-left{
+  background: url(../images/alex-loup-8vsLtu3FyWA-unsplash.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
+  height: 60vh;
+
+}
+.appeal-right{
+  background-color: #F4F5FF;
+  background-image: url(../images/appeal-flower.PNG);
+  background-repeat: no-repeat;
+  background-position: 103% 50%;
+  background-size: 30%;
+}
+.appeal{
   /* height: 100vh; */
   margin-bottom: 10%!important;
 }
-#appeal .container{
-  max-width: 100%!important;
-}
 
-#appeal .container .appeal-flowrich{
-  padding: 0%!important;
-}
-.mobile-appeal-bottom{
-  background: url(../images/mobile-appeal-bottom.png);
-  background-size: 100%;
-  background-position: right;
-  background-repeat: no-repeat;
-  max-width: 100%!important;
-}
 /* APPEAL SECTION ENDS */
 
 /* CONTACT US SECTION STARTS  */
@@ -310,8 +314,10 @@ background-color: #FBEDE2;
 
 /* FOOTER STARTS  */
 #footer{
-  background: url(../images/mobile-footer-bg.png);
-  background-size: cover;
+  background: url(../images/footer-2.PNG);
+  background-color: #F4F5FF;
+  background-size: 40% 50%;
+  background-position: top 6% left -26%;
   background-repeat: no-repeat;
  
 }
