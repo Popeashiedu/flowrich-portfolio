@@ -111,7 +111,7 @@
   background-size: 100%;
   background-repeat: no-repeat;
   /* height: 100vh; */
-  margin-bottom: 10%!important;
+  margin-bottom: 6%!important;
   max-width: 100%!important;
 }
 /* .appeal .content{
@@ -200,11 +200,11 @@
   }
   .flowrich-about{
     margin-top: 9%;
-    margin-bottom: 20%;
+    margin-bottom: 30%;
   }
   /* APPEAL STARTS  */
   .appeal{
-    height: 90vh;
+    /* height: 60vh; */
   }
   .map iframe{
     width: 670px;
@@ -217,7 +217,6 @@
   /* HEADER STARTS  */
   .flowrich-header{
     background-position: 100% 0%;
-    height: 60vh;
    
   }
   .flowrich-about{

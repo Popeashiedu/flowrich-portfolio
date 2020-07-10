@@ -199,7 +199,7 @@ background-color: #FBEDE2;
 
 /* SHOP SECTION STARTS  */
 .carousel{
-  margin-left: 0%;
+  margin-left: 10%!important;
 }
 .shop-img{
   border: none;
