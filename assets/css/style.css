@@ -75,7 +75,7 @@ img{
   animation: name duration timing-function delay iteration-count direction fill-mode;
 }
 .nav-link{
-  color: var(--clr-primary)!important;
+  /* color: var(--clr-primary)!important; */
   font-size: 24px;
 }
 /* .navbar ul {
@@ -100,7 +100,15 @@ background-color: #FBEDE2;
 .navbar li{
   transition: ease-in-out 0.25s ;
 }
-.navbar .nav-item:hover{
+.flowrich-navbar, .navbar{
+  background: rgb(243,238,233);
+  background: linear-gradient(90deg, rgba(243,238,233,1) 0%, rgba(243,238,233,1) 41%, rgba(237,228,219,1) 100%);
+  /* #ede4db!important; */
+}
+.navbar li a{
+  color:var(--clr-primary)!important;
+}
+.navbar .nav-item:hover, .active{
   border-bottom: solid 1px #324119;
   transform: scale(1.05);
 }
@@ -108,15 +116,6 @@ background-color: #FBEDE2;
 /* ABOUT SECTION STARTS  */
 .flowrich-about-img img{
   max-width: 70%;
-}
-
-.light-btn{
-  /* padding: 0.75rem; */
-  height: 2.5rem;
-  width: 8rem;
-  border: none;
-  background-color: #F1F8FF;
-  color: #324119;
 }
 
 .about-container{
@@ -137,10 +136,11 @@ background-color: #FBEDE2;
   background-size: 8%;
   background-position: 88% 1%;
 }
-
+/* BUTTONS  */
 .pink-btn, .light-btn{
   transition: all ease-out 0.25s;
 }
+
 .pink-btn:hover, .light-btn:hover{
   background-color: #FFFEFE;
   box-shadow: 4px 4px 14px 0px rgba(0,0,0,0.75);
@@ -150,16 +150,24 @@ background-color: #FBEDE2;
   background-color: #324119;
   color: white;
 }
-
+.light-btn{
+  /* padding: 0.75rem; */
+  height: 70px;
+  width: 196px;
+  border: none;
+  background-color: #F1F8FF;
+  color: #324119;
+}
 
 .pink-btn{
   /* padding: 0.75rem; */
-  height: 2.5rem;
-  width: 8rem;
+  height: 70px;
+  width: 196px;
   border: none;
   background-color: #FBEDE2;
   color: #324119;
 }
+/* BUTTONS END  */
 .card{
   border: none;
   border-radius: 0%;
@@ -190,6 +198,7 @@ background-color: #FBEDE2;
   opacity: .6;
   
 }
+
 .desktop{
   display: none;
 }

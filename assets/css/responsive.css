@@ -44,10 +44,7 @@
       background-size: 10% 6%, 10% 6%;
       background-position: left 0% top 37%, right 0% top 47%;
   }
-  .navbar{
-    position: sticky;
-    max-width: 100%;
-  }
+  
   .desktop{
     display: block;
   }
@@ -61,8 +58,10 @@
       background-color: 
       #f3eee9;
     }
-    .flowrich-navbar{
-      background-color: transparent!important;
+    .flowrich-navbar, .navbar{
+      background: rgb(243,238,233);
+      background: linear-gradient(90deg, rgba(243,238,233,1) 0%, rgba(243,238,233,1) 41%, rgba(237,228,219,1) 100%);
+      /* #ede4db!important; */
     }
     
     #flowrich-header-container, .mobile{
@@ -74,9 +73,9 @@
       
     }
 /* NAVBAR STARTS  */
-.navbar ul {
+/* .navbar ul {
   background-color: transparent;
-  }
+  } */
 .nav-link{
     font-size: 24px;
   }
