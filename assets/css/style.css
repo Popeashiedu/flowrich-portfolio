@@ -16,7 +16,7 @@ img{
 .shop .row{
   border: solid 1px blue;
 }
-.carousel{
+.carousel{vbv
   border: dashed 1px blue;
 }
 .carousel-inner{
@@ -452,5 +452,117 @@ z-index: 99999;
     -webkit-transform: translateZ(0) translateY(0);
             transform: translateZ(0) translateY(0);
     opacity: 1;
+  }
+}
+
+
+/* SWIPER  */
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+
+.swiper-container {
+  width: 100%;
+  height: 10%;
+
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+#rain-group-1{
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  animation: rain 1s infinite linear;
+}
+#rain-group-2{
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  animation: rain 0.7s 2s infinite linear;
+}
+#rain-group-3{
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  animation: rain 0.5s 2s infinite linear;
+}
+
+#right-arm{
+  animation: move-right 2s infinite linear;
+  transform-origin: top;
+  transform-box: fill-box;
+}
+
+#Umbrella{
+  animation: umbrella 2s infinite linear;
+  transform-origin: right;
+  transform-box: fill-box;
+}
+
+#plants{
+  animation: move-plants 2s infinite linear;
+}
+
+@keyframes rain {
+  0%{
+    transform: translateY(0px);
+  }
+  100%{
+    transform: translateY(50px);
+  }
+}
+
+@keyframes move-right{
+  0%{
+    transform: rotate(0deg);
+  }
+  50%{
+    transform: rotate(-15deg);
+  }
+  100%{
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes umbrella{
+  0%{
+    transform: rotate(10deg);
+    /* transform: translateX(-10px); */
+  }
+  50%{
+    transform: translateX(-50px);
+  }
+  100%{
+    /* transform: translateY(-150px); */
+    /* transform: translateZ(-900px); */
+   }
+}
+
+@keyframes move-plants{
+  0%{
+    transform: skew(5px);
+  }
+  50%{
+    transform: skew(100px);
+
+  }
+  100%{
+    transform: skew(0px);
   }
 }

@@ -48,15 +48,16 @@
   .desktop{
     display: block;
   }
-    /* HEADER STARTS  */
+    /* HEADER STARTS b */
     .flowrich-header{
       background: url(../images/flowrich-bg.png);
-      background-size: auto;
+      background-size: cover;
       background-repeat: no-repeat;
       height: 100vh;
       background-position: 27% 0%;
       background-color: 
       #f3eee9;
+      
     }
     .flowrich-navbar, .navbar{
       background: rgb(243,238,233);
@@ -219,6 +220,7 @@
 }
 @media all and (min-width:1440px) {
   /* HEADER STARTS  */
+
   .flowrich-header{
     background-position: 100% 0%;
    
@@ -236,7 +238,7 @@
   }
 }
 
-@media all and (min-width:2560px) {
+@media all and (min-width:1800px) {
   /* HEADER STARTS  */
   .flowrich-header{
     background-position: 100% 0%;
